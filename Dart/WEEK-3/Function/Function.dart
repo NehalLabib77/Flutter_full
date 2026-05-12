@@ -3,7 +3,7 @@ void hello() {
   print("How r u");
 }
 
-//* Function with return type
+//* Function with return type -- Ki return korbe sei type define kore dite hbe 
 int add() {
   return 10 + 20;
 }
@@ -14,7 +14,7 @@ void option1(String name, int age) {
   print("Age is $age");
 }
 
-//* With optional positional parameter   //* Can be null
+//* With optional positional parameter   //* Can be null must use --> []
 void option2(String name, [int? age]) {
   print("Name is $name");
   print("Age is $age");
@@ -31,7 +31,6 @@ void main() {
   print(add());
   option1("Nehal", 22);
   option2("Rahim");
-  option2("karim",23);
+  option2("karim", 23);
   option3("karim");
-
 }
